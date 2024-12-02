@@ -20,7 +20,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -29,7 +29,7 @@
 
   <div>
     <?php
-    include "card.php";
+    include "ViewPageCard.php";
     ?>
   </div>
 

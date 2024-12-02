@@ -2,7 +2,7 @@
 
 <head>
 
-  <link rel="stylesheet" href="card.css">
+  <link rel="stylesheet" href="css/card.css">
 
 </head>
 
@@ -218,7 +218,7 @@
 
   <!--Cards-->
 
-  <script src="card.js"></script>
+  <script src="js/card.js"></script>
 </body>
 
 </html>
