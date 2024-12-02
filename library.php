@@ -7,7 +7,7 @@
     <title>Library Page</title>
 
     <!--CSS File Link-->
-    <link rel="stylesheet" href="library.css">
+    <link rel="stylesheet" href="css/library.css">
     <!--CSS File Link-->
 
     <!--Bootstrap CDNs-->
