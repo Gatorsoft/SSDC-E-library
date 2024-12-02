@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainbox {
+    position: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.mainbox .sidebar_menu {
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    left: -250px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+
+ .header-logo .logo1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo .logo1 a:hover{
+    background: rgba(0, 0, 0, 0);
+}
+
+.blogo {
+    padding-right: 14px;
+}
+
+.header-logo .logo1 a {
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    left: 2%;
+    line-height: 80px;
+    text-decoration: none;
+    cursor: default;
+}
+
+.sidebar_menu .menu {
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+
+.sidebar_menu .menu li {
+    margin-top: 6px;
+    padding: 14px 20px;
+    transition: all 0.6s ease;
+}
+
+.sidebar_menu .menu i {
+    color: black;
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+.sidebar_menu .menu a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sidebar_menu .menu a:hover{
+    background: rgba(0, 0, 0, 0);
+}
+
+.sidebar_menu .menu li:hover {
+    border-left: 1px solid #000;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.menu .jlevelli a{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.menu .jlevels{
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.menu .jlevels li{
+    margin: 6px 0 0 0;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.menu .jlevels li a{
+    padding-left: 15%;
+    font-size: 16px;
+}
+
+.sidebar_menu .social_media {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.social_media i {
+    padding: 0 5px;
+    color: black;
+    opacity: 0.6;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.social_media i:hover {
+    opacity: 1;
+}
+
+#check {
+    display: none;
+}
+
+.mainbox .btn_one {
+    top: 82px;
+    font-size: 30px;
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.3);
+    width: 4%;
+    height: 100vh;
+    position: absolute;
+    opacity: 1;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+
+.btn_one i {
+    cursor: pointer;
+    font-size: 38px;
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 50%;
+    top: 41%;
+    transform: translate(-50%);
+}
+
+.sidebar_menu .btn_two {
+    top: 0;
+    position: absolute;
+    right: 0px;
+    width: 14%;
+    height: 89vh;
+    background: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all 0.6 ease;
+    cursor: pointer;
+}
+
+.btn_two i {
+    font-size: 30px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%);
+}
+
+.sidebar_menu .btn_two:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#check:checked~.sidebar_menu {
+    left: 0px;
+}
+
+#check:checked~.label1 .btn_one{
+    opacity: 0;
+    display: none;
+}
+
+#check:checked~.sidebar_menu .btn_two {
+    opacity: 1;
+}
+
+/*content*/
+
+.main1 {
+    width: 96%;
+    top: 82px;
+    left: 4%;
+    transition: all 0.5s ease;
+    position: absolute;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+#check:checked~.main1 {
+    left: 250px;
+    width: calc(100% - 250px);
+}
+
+.filters{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2%;
+}
+
+.smcatogaries{
+    display: none;
+}
+
+.viewby{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1280px){
+
+    .mainbox .main1{
+        top: 73px;
+        width: 100%;
+        left: 0;
+    }
+
+    #check:checked~.main1{
+        width: 100%;
+        left: 0;
+    }
+
+    .mainbox .btn_one,
+    .sidebar_menu{
+        display: none;
+    }
+
+    
+    .smcatogaries{
+        display: block;
+    }
+
+    .cdul{
+        width: 450px;
+    }
+
+    .cdul li a{
+        color: #000;
+        text-decoration: none;
+        margin: 6px 0 6px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .main1 {
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .filters .viewby{
+        display: none;
+    }
+
+    .cdul{
+        width: 300px;
+    }
+}
+
+/*content*/
