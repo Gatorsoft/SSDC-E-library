@@ -32,6 +32,7 @@
 
   <link href="headers.css" rel="stylesheet">
 
+<<<<<<< HEAD
   <!--CSS File Link-->
   <link rel="stylesheet" href="css/library.css">
   <!--CSS File Link-->
@@ -56,6 +57,8 @@
     href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&amp;display=swap" />
   <!-- Fontawesome-->
 
+=======
+>>>>>>> 6f2ecf2e701141c13ce822e17c1b92b81434726a
 
 </head>
 
@@ -68,9 +71,15 @@
   ?>
 
 
+<<<<<<< HEAD
   <main class="mt-5 pt-5">
 
     <div class="col-10 offset-1">
+=======
+  <main>
+
+    <div class="container">
+>>>>>>> 6f2ecf2e701141c13ce822e17c1b92b81434726a
       <div class="row">
         <div class="col-12">
 
@@ -91,9 +100,15 @@
 
                   </div>
                   <div class="carousel-caption text-start mb-5 mt-sm-5">
+<<<<<<< HEAD
                     <h1 class="sppb-addon-title fw-bold fs-1" style="color: #fff;">Welcome to </h1>
                     <p class="opacity-75">
 
+=======
+                    <h1 class="sppb-addon-title">Welcome to </h1>
+                    <p class="opacity-75">
+                      
+>>>>>>> 6f2ecf2e701141c13ce822e17c1b92b81434726a
                     </p>
                     <p></p>
                   </div>
@@ -104,8 +119,13 @@
                     <img src="resources/9.jpg" alt="Slide 2" class="d-block w-100">
                   </div>
                   <div class="carousel-caption mb-5">
+<<<<<<< HEAD
                     <h1><b style="color: #fff; font-weight: bold;">New Updated News</b></h1>
                     <p style="color: #fff;">Discover our expanding book collection. Stay tuned for updates and features!.</p>
+=======
+                    <h1><b>New Updated News</b></h1>
+                    <p>Discover our expanding book collection. Stay tuned for updates and features!.</p>
+>>>>>>> 6f2ecf2e701141c13ce822e17c1b92b81434726a
                   </div>
                 </div>
                 <!-- Third Slide -->
@@ -114,8 +134,13 @@
                     <img src="resources/4.jpg" alt="Slide 3" class="d-block w-100">
                   </div>
                   <div class="carousel-caption text-start mb-5">
+<<<<<<< HEAD
                     <h1 style="font-family: 'Courier New', Courier, monospace;"><b style="color: #fff; font-weight: bold;">Project E-Library</b></h1>
                     <p style="color: #fff;"> </br> -> First Version is released !... </br> -> New Versions are comming soon !... </br> ->
+=======
+                    <h1 style="font-family: 'Courier New', Courier, monospace;"><b>Project E-Library</b></h1>
+                    <p> </br> -> First Version is released !... </br> -> New Versions are comming soon !... </br> ->
+>>>>>>> 6f2ecf2e701141c13ce822e17c1b92b81434726a
                       What are you Expected From them ? </p>
                     <button class="btn btn-success fs-4" onclick="sendEmail()">Send us an E-mail !...</button>
                   </div>
@@ -141,12 +166,21 @@
 
 
           <!-- heroo eka  -->
+<<<<<<< HEAD
           <section class="py-2 text-center my-3 ">
             <div class=" row py-lg-5 box1 my-2 ms-1 me-1">
               <div class="album col-lg-12 col-md-8 mx-auto  position-relative " style="height: 400px; width: 3000px;">
                 <!-- Background image using img tag -->
                 <img src="resources/4545.png" alt="background image" style="border-radius: 15px;"
                   class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover d-block d-md-none  shadow-lg bg-body-tertiary  mx-md-0 my-md-0">
+=======
+          <section class="py-2 text-center container my-3  ">
+            <div class=" row py-lg-5 box1 my-2">
+              <div class="album col-lg-8 col-md-8 mx-auto  position-relative " style="height: 400px; width: 3000px;">
+                <!-- Background image using img tag -->
+                <img src="resources/4545.png" alt="background image" style="border-radius: 15px;"
+                  class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover d-block d-md-none  shadow-lg bg-body-tertiary  mx-md-0 my-md-0 img-fluid">
+>>>>>>> 6f2ecf2e701141c13ce822e17c1b92b81434726a
                 <img src="resources/4545.png" alt="background image" style="border-radius: 15px;"
                   class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover d-none d-sm-block  shadow-lg bg-body-tertiary ">
                 <img src="resources/4545.png" alt="background image" style="border-radius: 15px;"
@@ -180,19 +214,30 @@
                 </p>
 
                 <!-- Button (Responsive Styling) -->
+<<<<<<< HEAD
                 <button onclick="goToLibrary();" class="lib position-relative shadow-lg btn btn-outline-light fs-6 fs-sm-5 px-4 py-2">
+=======
+                <button class="lib position-relative shadow-lg btn btn-outline-light fs-6 fs-sm-5 px-4 py-2">
+>>>>>>> 6f2ecf2e701141c13ce822e17c1b92b81434726a
                   Go to E-Library
                 </button>
 
               </div>
             </div>
+<<<<<<< HEAD
           </section>
+=======
+>>>>>>> 6f2ecf2e701141c13ce822e17c1b92b81434726a
         </div>
 
 
       </div>
 
     </div>
+<<<<<<< HEAD
+=======
+    </section>
+>>>>>>> 6f2ecf2e701141c13ce822e17c1b92b81434726a
     <!-- hero eka -->
 
 
