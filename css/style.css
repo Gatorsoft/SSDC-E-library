@@ -1,0 +1,19 @@
+
+.scrolbar {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.item {
+  flex-shrink: 0;
+  margin: 10px;
+  width: 140px;
+  height: 210px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  
