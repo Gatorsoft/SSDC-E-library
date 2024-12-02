@@ -1,0 +1,10 @@
+# Enforce LF endings for HTML files
+*.html text eol=lf
+
+# Set other common file types to use LF
+*.css text eol=lf
+*.js text eol=lf
+
+# Binary files should not have line ending conversions
+*.png binary
+*.jpg binary
