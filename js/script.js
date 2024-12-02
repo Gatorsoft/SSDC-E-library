@@ -15,3 +15,10 @@ function sendEmail() {
     // Open the email client
     window.location.href = mailtoLink;
 }
+<<<<<<< HEAD
+
+function goToLibrary(){
+    window.location = "library.php";
+}
+=======
+>>>>>>> 6f2ecf2e701141c13ce822e17c1b92b81434726a
