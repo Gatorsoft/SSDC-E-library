@@ -21,7 +21,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Font Awesome CDN-->
 
-    <link rel="stylesheet" href="https://docs-ds.estaleiro.serpro.gov.br/govbr-ds-core/dist/core.min.css" />
+    <link for="header" rel="stylesheet" href="https://docs-ds.estaleiro.serpro.gov.br/govbr-ds-core/dist/core.min.css" />
     <!-- Fonte Rawline-->
     <link rel="stylesheet"
         href="https://cdngovbr-ds.estaleiro.serpro.gov.br/design-system/fonts/rawline/css/rawline.css" />
