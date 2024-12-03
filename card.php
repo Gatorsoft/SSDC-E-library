@@ -208,14 +208,11 @@
 
   <!--Cards-->
 
-<<<<<<< HEAD
   <script>
     function goToView(){
       window.location = "index.php";
     }
   </script>
-=======
->>>>>>> 6f2ecf2e701141c13ce822e17c1b92b81434726a
   <script src="js/card.js"></script>
 </body>
 
