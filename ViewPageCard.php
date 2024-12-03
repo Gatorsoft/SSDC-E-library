@@ -8,6 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <!--Bootstrap CDNs-->
 
+
 </head>
 
 <body>
@@ -60,7 +61,7 @@
         background-repeat: no-repeat;
         background-position: 50% 50%;
         height: 100%;
-        margin-right: 20px;
+        margin-right: 50px;
         width: 38%;
         border-radius: 8px;
       }
@@ -117,15 +118,17 @@
 
   <!--Cards-->
 
-  <div class="cardsSet col-10 offset-1">
+  <div class="cardsSet col-10 offset-1 mt-5">
 
     <book-card bookCoverURL="https://m.media-amazon.com/images/I/51NNbRqozDL.AC_UF1000,1000_QL80.jpg" rating="2.5">
       <span slot="title">Database Systems: The Complete Book</span>
       <span slot="author">Hector Garcia-Molina ,<br> Jeffrey D.Ullman & Jennifer Widom</span>
-      <div slot="button" class="mb-4">
-        <button class="btn btn-primary" onclick="GoToRead();">Read Now</button>
+      <div slot="button" class="mb-4 mt-3">
+        <a class="btn btn-outline-primary btn-lg " href="http://localhost/E-Library%20Version1/SSDC-E-library/bibi/?book=book5.epub" data-bibi="embed">
+          View the Book
+        </a><!-- http://localhost/E-Library%20Version1/SSDC-E-library/index.php -->
       </div>
-      <div slot="description">
+      <div class="mt-4" slot="description">
         <p>Database Systems: The Complete Book is ideal for Database Systems and Database Design and Application courses offered at the junior, senior and graduate levels in Computer Science departments. A basic understanding of algebraic expressions and laws, logic, basic data structure, OOP concepts, and programming environments is implied.</p>
         <p>Written by well-known computer scientists, this introduction to database systems offers a comprehensive approach, focusing on database design, database use, and implementation of database applications and database management systems.</p>
       </div>
@@ -136,11 +139,14 @@
 
   <!--Cards-->
 
-  <script>
+  <!--script>
     function GoToRead(){
-      window.location = "home.html";
+      window.location.href = "http://localhost/SSDC-E-library/bibi/?book=book5.epub";
     }
-  </script>
+  </script-->
+  <script src="https://localhost/E-library/bibi/and/jo.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="js/viewcard.js"></script>
 </body>
 
