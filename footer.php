@@ -1,6 +1,6 @@
 <div class="">
   <!-- Footer 16 - Bootstrap Brain Component -->
-  <footer style="background-color: #d9f5fa;"
+  <footer style="background-color: rgba(0, 0, 0, 0.1);"
     class="py-4">
 
     <!-- Logo & SM - Bootstrap Brain Component -->
@@ -14,7 +14,7 @@
             <div class="d-flex justify-content-center align-items-center"
               style="width: 60px; height: 60px; overflow: hidden;">
               <a href="#">
-                <img src="resources/logo.jpg" alt="Example Image" class="img-fluid" style="border-radius: 100%;" >
+                <img src="resources/logo.jpg" alt="Example Image" class="img-fluid" style="border-radius: 100%; " >
                 
               </a>
             </div>
