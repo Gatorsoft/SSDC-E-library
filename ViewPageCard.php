@@ -2,7 +2,12 @@
 
 <head>
 
-  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="css/viewpagecard.css">
+  <!--Bootstrap CDNs-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!--Bootstrap CDNs-->
+
 
 </head>
 
@@ -16,26 +21,27 @@
 
       .rating {
         display: block;
-        height: 20px;
-        width: 100px;
+        height: 30px;
+        width: 142px;
         padding: 0;
-        background-size: 20px 20px;
+        background-size: 30px 30px;
       }
 
       .scale {
-        background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 30'>\<text y='20' font-size='20' fill='lightgrey'>★</text>\</svg>");
+        background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 40'>\<text y='20' font-size='30' fill='lightgrey'>★</text>\</svg>");
 
       }
 
       .value {
         position: absolute;
         top: 0;
-        background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 30'>\<text y='20' font-size='20' fill='gold'>★</text>\</svg>");
+        background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 40'>\<text y='20' font-size='30' fill='gold'>★</text>\</svg>");
       }
     </style>
     <div class="rating scale"></div>
     <div class="rating value" id="assessment"></div>
   </template>
+
 
   <template id="book-card">
     <style>
@@ -55,8 +61,8 @@
         background-repeat: no-repeat;
         background-position: 50% 50%;
         height: 100%;
-        margin-right: 20px;
-        width: 30%;
+        margin-right: 50px;
+        width: 38%;
         border-radius: 8px;
       }
 
@@ -67,13 +73,13 @@
       }
 
       h2 {
-        font-size: 20px;
+        font-size: 40px;
       }
 
       .author {
         color: #999;
-        font-size: 14px;
-        margin-top: -10px;
+        font-size: 20px;
+        margin-top: -20px;
         margin-bottom: 16px;
       }
 
@@ -104,33 +110,44 @@
         <rating-stars></rating-stars>
       </div>
       <section>
+        <slot name="button">Read Now</slot>
         <slot name="description">Book description</slot>
-        <div class="fading"></div>
       </section>
     </div>
   </template>
 
   <!--Cards-->
-  
-    <div class="cardsSet ">
 
-      <book-card bookCoverURL="https://images.ctfassets.net/usf1vwtuqyxm/6S51pK7uwnyhkS9Io9DsAn/320c162c5150f853b8d8568c4715dcef/English_Harry_Potter_7_Epub_9781781100264.jpg?w=914&q=70&fm=jpg" rating="2.5">
-        <span slot="title">Harry Potter And The Deathly Hallows</span>
-        <span slot="author">J.K. Rowling</span>
-        <div slot="description">
-          <p>In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind
-            ever since.</p>
-          <p>‘Whenever you feel like criticizing any one,’ he told me,
-            ‘just remember that all the people in this world haven’t had
-            the advantages that you’ve had.</p>
-        </div>
-      </book-card>
+  <div class="cardsSet col-10 offset-1 mt-5">
 
-    </div>
+    <book-card bookCoverURL="https://m.media-amazon.com/images/I/51NNbRqozDL.AC_UF1000,1000_QL80.jpg" rating="2.5">
+      <span slot="title">Database Systems: The Complete Book</span>
+      <span slot="author">Hector Garcia-Molina ,<br> Jeffrey D.Ullman & Jennifer Widom</span>
+      <div slot="button" class="mb-4 mt-3">
+        <a class="btn btn-outline-primary btn-lg " href="http://localhost/E-Library%20Version1/SSDC-E-library/bibi/?book=book5.epub" data-bibi="embed">
+          View the Book
+        </a><!-- http://localhost/E-Library%20Version1/SSDC-E-library/index.php -->
+      </div>
+      <div class="mt-4" slot="description">
+        <p>Database Systems: The Complete Book is ideal for Database Systems and Database Design and Application courses offered at the junior, senior and graduate levels in Computer Science departments. A basic understanding of algebraic expressions and laws, logic, basic data structure, OOP concepts, and programming environments is implied.</p>
+        <p>Written by well-known computer scientists, this introduction to database systems offers a comprehensive approach, focusing on database design, database use, and implementation of database applications and database management systems.</p>
+      </div>
+
+    </book-card>
+
+  </div>
 
   <!--Cards-->
 
-  <script src="js/card.js"></script>
+  <!--script>
+    function GoToRead(){
+      window.location.href = "http://localhost/SSDC-E-library/bibi/?book=book5.epub";
+    }
+  </script-->
+  <script src="https://localhost/E-library/bibi/and/jo.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="js/viewcard.js"></script>
 </body>
 
 </html>
