@@ -23,7 +23,7 @@
           <div class="br-list" style="background: rgba(0, 0, 0, 0);">
             <div class="header">
               <div class="title">Functions</div>
-            </div><a class="br-item" href="javascript:void(0)" style="background: rgba(0, 0, 0, 0);"><i class="fa-solid fa-house me-1"></i> Home</a><a class="br-item" href="javascript:void(0)" style="background: rgba(0, 0, 0, 0);"><i class="fa-solid fa-star me-1"></i> Favorites</a><a class="br-item" href="javascript:void(0)" style="background: rgba(0, 0, 0, 0);"><i class="fa-solid fa-address-book me-1"></i> Contact</a><a class="br-item" href="javascript:void(0)" style="background: rgba(0, 0, 0, 0);"><i class="fas fa-question-circle me-1"></i> About</a>
+            </div><a class="br-item" href="javascript:void(0)" style="background: rgba(0, 0, 0, 0);"><i class="fa-solid fa-house me-1"></i> Home</a><a class="br-item" href="javascript:void(0)" style="background: rgba(0, 0, 0, 0);"><i class="fa-solid fa-star me-1"></i> Favorites</a><a class="br-item" href="javascript:void(0)" style="background: rgba(0, 0, 0, 0);"><i class="fas fa-question-circle me-1"></i> About</a>
           </div>
         </div><span class="br-divider vertical mx-half mx-sm-1"></span>
         <div class="header-functions dropdown">
@@ -33,19 +33,7 @@
             <div class="header">
               <div class="title">System Features</div>
             </div>
-            <div class="br-item" style="background: rgba(0, 0, 0, 0);">
-              <button class="br-button circle small" type="button" aria-label="Feature 1"><i class="fas fa-chart-bar" aria-hidden="true"></i><span class="text">Chart</span>
-              </button>
-            </div>
-            <div class="br-item" style="background: rgba(0, 0, 0, 0);">
-              <button class="br-button circle small" type="button" aria-label="Feature 2"><i class="fas fa-headset" aria-hidden="true"></i><span class="text">Help</span>
-              </button>
-            </div>
-            <div class="br-item" style="background: rgba(0, 0, 0, 0);">
-              <button class="br-button circle small" type="button" aria-label="Feature 3"><i class="fas fa-comment" aria-hidden="true"></i><span class="text">Messages</span>
-              </button>
-            </div>
-            <div class="br-item" style="background: rgba(0, 0, 0, 0);">
+            <div class="br-item ms-4" style="background: rgba(0, 0, 0, 0);">
               <button class="br-button circle small" type="button" aria-label="Feature 4"><i class="fas fa-adjust" aria-hidden="true"></i><span class="text">Theme</span>
               </button>
             </div>
